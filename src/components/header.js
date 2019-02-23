@@ -1,42 +1,70 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import PropTypes from "prop-types"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+const Header = props => (
+  <header id="header" style={props.timeout ? { display: "none" } : {}}>
+    <div className="logo">
+      <span className="icon fa-diamond" />
     </div>
+    <div className="content">
+      <div className="inner">
+        <h1>Andrej Gorovoj</h1>
+        <p>
+          Fullstack Web and Mobile application developer. <br />
+          Currently working as a Front-End Engineer at PurpleBricks.
+        </p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle("intro")
+            }}
+          >
+            Intro
+          </a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle("work")
+            }}
+          >
+            Work
+          </a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle("about")
+            }}
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle("contact")
+            }}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
   </header>
 )
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+  onOpenArticle: PropTypes.func,
+  timeout: PropTypes.bool,
 }
 
 export default Header
