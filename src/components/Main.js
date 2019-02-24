@@ -1,24 +1,22 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Intro from "./Intro"
-import Contact from "./Contact"
 import About from "./About"
+import Contact from "./Contact"
 import Work from "./Work"
+import Resume from "./Resume"
 
-class Main extends React.Component {
-  render = () => (
-    <div
-      ref={this.props.setWrapperRef}
-      id="main"
-      style={this.props.timeout ? { display: "flex" } : { display: "none" }}
-    >
-      <Intro {...this.props} />
-      <Work {...this.props} />
-      <About {...this.props} />
-      <Contact {...this.props} />
-    </div>
-  )
-}
+const Main = props => (
+  <div
+    ref={props.setWrapperRef}
+    id="main"
+    style={props.timeout ? { display: "flex" } : { display: "none" }}
+  >
+    <About {...props} />
+    <Work {...props} />
+    <Resume {...props} />
+    <Contact {...props} />
+  </div>
+)
 
 Main.propTypes = {
   route: PropTypes.object,
