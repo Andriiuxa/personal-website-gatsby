@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Andrej Gorovoj Personal",
+    title: "Andrej Gorovoj",
     author: "Andrej Gorovoj",
-    description: "Personal Portfolio Website",
+    description: "Andrej Gorovoj Personal Portfolio Website",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -15,7 +15,7 @@ module.exports = {
         background_color: "#663399",
         theme_color: "#663399",
         display: "minimal-ui",
-        icon: "src/images/gatsby-icon.png", // This path is relative to the root of the site.
+        icon: "src/images/logo.png", // This path is relative to the root of the site.
       },
     },
     "gatsby-plugin-sass",
