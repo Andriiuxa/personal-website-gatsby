@@ -1,5 +1,7 @@
 import React from "react"
-import pic02 from "../images/pic02.jpg"
+import screen01 from "../images/android/screen01.jpeg"
+import screen02 from "../images/smart-brain/smart-brain01.jpeg"
+import screen03 from "../images/jobs-search/jobs-search01.jpeg"
 
 const Work = props => (
   <article
@@ -10,23 +12,21 @@ const Work = props => (
     style={{ display: "none" }}
   >
     <h2 className="major">Work</h2>
+    <p>Survival Toolkit - Java, Google API, Open Weather API</p>
     <span className="image main">
-      <img src={pic02} alt="" />
+      <img src={screen01} alt="" />
+    </span>
+    <p>Smart Brain - React.js, Node.js, Firebase</p>
+    <span className="image main">
+      <img src={screen02} alt="" />
     </span>
     <p>
-      Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at
-      eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi,
-      fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec
-      lorem luctus ultrices.
+      Jobs Search App - React-Native.js, Google Cloud Functions, Firebase, Expo
+      API, Goole Maps API, Indeed Jobs API
     </p>
-    <p>
-      Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-      Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque
-      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel
-      lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat
-      tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc
-      rhoncus amet feugiat tempus.
-    </p>
+    <span className="image main">
+      <img src={screen03} alt="" />
+    </span>
     <div
       className="close"
       onClick={() => {
