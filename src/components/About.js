@@ -19,14 +19,15 @@ const About = props => (
     </p>
     <p>
       Born in Lithuania in a Russian family one thing I've been always
-      passionate about is new technologies (thanks to dad and grandpa's for
+      passionate about is new technologies (thanks to dad and grandpas for
       igniting me). To pursue my dream of being able to constantly travel the
       world and explore new places, cultures, people and technologies while not
-      running out of money and just enjoying what I do, I've decided to leave my
-      home and family and come to United Kingdom to study at one of the best
-      Engineering Faculties in the country at Coventry University. After three
-      years I was standing outside the university buildings holding my degree in
-      Computer Science and thinking "what's now?", "what's next?".
+      running out of money, becoming an expert in my field of knowledge and also
+      enjoying what I do. I've decided to leave my home and family and come to
+      United Kingdom to study at one of the best Engineering Faculties in the
+      country at Coventry University. After three years I was standing outside
+      the university buildings holding my degree in Computer Science and
+      thinking "what's now?", "what's next?".
     </p>
     <p>
       So at the moment I am focused on expanding my knowledge in React.js,
