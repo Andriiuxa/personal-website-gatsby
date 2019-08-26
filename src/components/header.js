@@ -10,8 +10,8 @@ const Header = props => (
       <div className="inner">
         <h1>Andrej Gorovoj</h1>
         <p>
-          Fullstack Web and Mobile application developer. <br />
-          Currently working as a Front-End Engineer at PurpleBricks.
+          Full-Snack JavScript developer. <br />
+          Currently working as a Front-End Engineer at RedBrain Ltd.
         </p>
       </div>
     </div>
@@ -31,10 +31,10 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle("work")
+              props.onOpenArticle("projects")
             }}
           >
-            Work
+            Projects
           </a>
         </li>
         <li>
@@ -45,6 +45,16 @@ const Header = props => (
             }}
           >
             Resume
+          </a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle("random")
+            }}
+          >
+            Random
           </a>
         </li>
         <li>

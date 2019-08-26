@@ -1,5 +1,5 @@
 import React from "react"
-import pic01 from "../images/me.jpeg"
+import pic01 from "../images/me.jpg"
 
 const About = props => (
   <article

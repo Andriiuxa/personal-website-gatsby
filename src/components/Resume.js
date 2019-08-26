@@ -1,5 +1,5 @@
 import React from "react"
-import cv from "../images/cv.jpg"
+import cv from "../images/cv.png"
 
 const openLink = () => {
   return window.open(

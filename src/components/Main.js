@@ -2,8 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import About from "./About"
 import Contact from "./Contact"
-import Work from "./Work"
+import Projects from "./Projects"
 import Resume from "./Resume"
+import Random from "./Random"
 
 const Main = props => (
   <div
@@ -12,9 +13,10 @@ const Main = props => (
     style={props.timeout ? { display: "flex" } : { display: "none" }}
   >
     <About {...props} />
-    <Work {...props} />
+    <Projects {...props} />
     <Resume {...props} />
     <Contact {...props} />
+    <Random {...props} />
   </div>
 )
 
