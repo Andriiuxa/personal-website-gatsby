@@ -10,8 +10,8 @@ const Header = props => (
       <div className="inner">
         <h1>Andrej Gorovoj</h1>
         <p>
-          Full-Snack JavaScript developer. <br />
-          Currently working as a Front-End Engineer at RedBrain Ltd.
+          Full-Stack Software Engineer. <br />
+          Currently working as a Software Engineer at RedBrain Ltd.
         </p>
       </div>
     </div>
@@ -45,16 +45,6 @@ const Header = props => (
             }}
           >
             Resume
-          </a>
-        </li>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle("random")
-            }}
-          >
-            Random
           </a>
         </li>
         <li>

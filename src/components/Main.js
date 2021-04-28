@@ -4,7 +4,6 @@ import About from "./About"
 import Contact from "./Contact"
 import Projects from "./Projects"
 import Resume from "./Resume"
-import Random from "./Random"
 
 const Main = props => (
   <div
@@ -16,7 +15,6 @@ const Main = props => (
     <Projects {...props} />
     <Resume {...props} />
     <Contact {...props} />
-    <Random {...props} />
   </div>
 )
 

@@ -28,11 +28,5 @@ module.exports = {
     },
     "gatsby-plugin-sass",
     "gatsby-plugin-offline",
-    {
-      resolve: `gatsby-source-instagram-all`,
-      options: {
-        access_token: "4036200682.1677ed0.4571716427c345d9b876e7709bd450e9",
-      },
-    },
   ],
 }

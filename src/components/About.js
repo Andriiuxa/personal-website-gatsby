@@ -11,36 +11,22 @@ const About = props => (
   >
     <h2 className="major">About</h2>
     <span className="image main">
-      <img src={pic01} alt="" />
+      <img src={pic01} alt="Portrait" />
     </span>
     <p>
-      Hi there! This is me. Just another 23 year old kid that is chasing his
-      dreams.
+      Hi there! This is me. My name is Andrej and I am just another 25 year old
+      kid that is chasing his dreams.
     </p>
     <p>
-      Born in Lithuania in a Russian family one thing I've been always
-      passionate about is new technologies (thanks to dad and grandpas for
-      igniting me). To pursue my dream of being able to constantly travel the
-      world and explore new places, cultures, people and technologies while not
-      running out of money, becoming an expert in my field of knowledge and also
-      enjoying what I do. I've decided to leave my home and family and come to
-      United Kingdom to study at one of the best Engineering Faculties in the
-      country at Coventry University. After three years I was standing outside
-      the university buildings holding my degree in Computer Science and
-      thinking "what's now?", "what's next?".
+      Currently I live in Birmingham, UK. However I have big plans to try and
+      live in as many places as I can through my life.
     </p>
     <p>
-      So at the moment I am focused on expanding my knowledge in React.js,
-      React-Native.js, Node.js, Gatsby.js, Firebase, Microservices, Serverless
-      architecture, etc... By working on my own projects, freelancing, working
-      at a full-time job, so that one day I can build that next "million dollar"
-      app, retire hapily and travel the world for the rest of my life.
+      Apart from coding I love E-Sports, JDM, photography, cinematography,
+      skateboarding, table tennis, billiard, badminton and just having a great
+      time.
     </p>
-    <p>
-      Yes, I know you think I am very naive, but don't worry, in a few years you
-      will see me on TV talking about how everything is possible if you just
-      have a dream and follow it :)
-    </p>
+    <p>Don't be shy and contact me for whatever reason you would like.</p>
     <div
       className="close"
       onClick={() => {

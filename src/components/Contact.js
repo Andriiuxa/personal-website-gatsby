@@ -53,6 +53,22 @@ const Contact = props => (
           <span className="label">GitHub</span>
         </a>
       </li>
+      <li>
+        <a
+          href="https://www.instagram.com/andr1uxaa/"
+          className="icon fa-instagram"
+        >
+          <span className="label">Instagram</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com/channel/UCgr_qabMg8VcZKQHhFjj6KA/featured"
+          className="icon fa-youtube"
+        >
+          <span className="label">Youtube</span>
+        </a>
+      </li>
     </ul>
     <div
       className="close"
